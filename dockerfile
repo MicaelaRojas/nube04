@@ -1,4 +1,4 @@
-FROM node
+ FROM node
     LABEL mantainer micaela.rojas@tecsup.edu.pe
     RUN git clone -q https://github.com/MicaelaRojas/MicaelaRojas-Lab04_Nube
     WORKDIR hola-express
