@@ -4,12 +4,24 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "Micaela Rojas",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"
   },
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicaelaRojas/MicaelaRojas-Lab04_Nube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MicaelaRojas/MicaelaRojas-Lab04_Nube/issues"
+  },
+  "homepage": "https://github.com/MicaelaRojas/MicaelaRojas-Lab04_Nube#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
